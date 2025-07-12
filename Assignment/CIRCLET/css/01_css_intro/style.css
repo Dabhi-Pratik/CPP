@@ -1,0 +1,54 @@
+p{
+	color:gray;
+	font-family:arial;
+	
+}
+b{
+	color:blue;
+}
+
+img{
+
+	width:90px
+}
+
+.head2{
+	color:no color;
+	background-color:yellow
+}
+
+
+.head1{
+	color:white;
+	background-color:black
+}
+
+li{
+	font-family:cursive;
+	background-color:gainsboro
+}
+
+.list{
+	font-family:arial;
+	background-color:lightblue;
+}
+
+.list2{
+color:white
+}
+
+.pic1{
+	padding:10px;
+	border-radius:100%;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+
+.pic2{
+	padding:30px;
+	width:200px;
+	border-radius:10px;
+	box-shadow:lightblue 0px 3px 8px;
+}
+
+

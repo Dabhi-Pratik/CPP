@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Instagram Chat</title>
+  <link rel="stylesheet" href="style.css" />
+
+</head>
+<body>
+  <div class="container">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Instagram_logo_2022.svg/2048px-Instagram_logo_2022.svg.png" alt="Instagram Logo" class="logo" />
+        <input type="text" placeholder="Search" class="search-bar" />
+      </div>
+      <div class="sidebar-chats">
+        <div class="chat-item">
+          <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User 1" class="user-avatar" />
+          <span class="chat-name">John Doe</span>
+        </div>
+        <div class="chat-item">
+          <img src="https://randomuser.me/api/portraits/women/2.jpg" alt="User 2" class="user-avatar" />
+          <span class="chat-name">Jane Smith</span>
+        </div>
+        <!-- Add more chat items as needed -->
+      </div>
+    </div>
+
+    <!-- Chat Window -->
+    <div class="chat-window">
+      <div class="chat-header">
+        <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="User 1" class="user-avatar" />
+        <span class="chat-name">John Doe</span>
+      </div>
+      <div class="chat-messages">
+        <div class="message sender">
+          <span class="message-text">Hey, how's it going?</span>
+        </div>
+        <div class="message receiver">
+          <span class="message-text">Good, thanks! How about you?</span>
+        </div>
+        <!-- Add more messages as needed -->
+      </div>
+      <div class="chat-input">
+        <input type="text" placeholder="Type a message..." class="message-input" />
+        <button class="send-btn">Send</button>
+
+        <button><i class="ri-home-9-fill"></i></button>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
